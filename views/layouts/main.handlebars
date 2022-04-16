@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Los Amigos</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+
+
+</head>
+
+<body>
+
+  <header>
+    <h1 class="text-center fw-light display-1 text-uppercase header-name">Los Amigos</h1>
+    <p class="text-center h5 text-uppercase header-desc">carniceria | taqueria</p>
+  </header>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">-</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item fs-5 text-uppercase px-3">
+            <a class="nav-link active" href="/">Los Amigos
+              <span class="visually-hidden">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item fs-5 text-uppercase px-3">
+            <a class="nav-link" href="/menu">Menu</a>
+          </li>
+          <li class="nav-item fs-5 text-uppercase px-3">
+            <a class="nav-link" href="/">Carniceria</a>
+          </li>
+          <li class="nav-item fs-5 text-uppercase px-3">
+            <a class="nav-link" href="/">Contact</a>
+          </li>
+          <li class="nav-item dropdown fs-5 text-uppercase px-3">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+          </li>
+        </ul>
+        <!-- <form class="d-flex">
+                    <input class="form-control me-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                </form> -->
+      </div>
+    </div>
+  </nav>
+
+
+  <figure class="mx-5 px-5 text-end pt-5">
+    <blockquote class="blockquote">
+      <p class="mb-0">"Love this place! The tacos are divine! Service is awesome! ! The ladies making the food are always sweet and teach my daughter a little Spanish every time we pick up!"</p>
+    </blockquote>
+    
+    <figcaption class="blockquote-footer text-danger">
+      R.Thomas <cite title="Source Title">Google Reviews</cite>
+    </figcaption>
+  </figure>
+
+  <figure class=" mx-5 px-5 text-end pb-5">
+    <blockquote class="blockquote">
+      <p class="mb-0">"Awesome place, best tacos I've ever had. Must get some if you like tacos, you'll never find any better."</p>
+    </blockquote>
+
+    <figcaption class="blockquote-footer text-danger">
+      J.Besancon <cite title="Source Title">Google Reviews</cite>
+    </figcaption>
+  </figure>
+
+{{{body}}}
+
+  {{!-- <main id="la-menu" class="container pt-5">
+    <section class="row jc-center fw-lighter">
+
+      <h2 class="text-uppercase text-center py-3 display-5 page-break">taqueria menu</h2>
+
+      <div class="col-12 mx-2 mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">Protein</div>
+        <div class="card-body">
+          <ul class="row card-text col-12 text-center text-uppercase">
+            <p class="col-4">carne asada (grilled steak)</p>
+            <p class="col-4">pollo (grilled chicken)</p>
+            <p class="col-4">pastor (marinated pork)</p>
+            <p class="col-4">barbacoa (braised beef)</p>
+            <p class="col-4">cecina (cured salted beef)</p>
+            <p class="col-4">chorizo (mexican sausage)</p>
+            <p class="col-4">carnitas (braised pork)</p>
+            <p class="col-4">tripa (tripe) + $</p>
+            <p class="col-4">lengua (beef tongue) + $</p>
+          </ul>
+        </div>
+      </div>
+      <hr>
+
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">tacos</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">Four hand-made, soft, corn tortillas filled with choice of protein, topped
+            with cilantro, and onions.</p>
+        </div>
+      </div>
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">sopes</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">Three thick corn tortillas topped with beans choice of protein, lettuce, sour cream, and queso fresco.</p>
+        </div>
+      </div>
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">burritos</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">12 in. flour tortilla stuffed with rice, beans, choice of protein, cheese,
+            onions, and cilantro.</p>
+        </div>
+      </div>
+
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">flautas</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3 ">Four hand-made, fried corn tortillas rolled and filled with shredded
+            chicken.
+            Topped with sour cream and queso fresco. Served with lettuce, and tomatoes.</p>
+        </div>
+      </div>
+
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">gorditas</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">Three thick corn tortillas fried and filled with chicharron (fried pork
+            skins
+            in green sauce), or choice of protein, lettuce, sour cream, and queso fresco.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">quesadillas</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">12 in. flour tortilla grilled with choice of protein and cheese. Served
+            with
+            lettuce, tomatoes, and sour cream.</p>
+        </div>
+      </div>
+
+
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">enchiladas</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">Four hand-made, soft, corn tortillas rolled and filled with queso fresco
+            and
+            slathered in a green tomatillo sauce. Topped with queso, served with cecina, lettuce, sour
+            cream, avocado, and red onion.</p>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
+        <div class="card-header text-uppercase text-center h5">tortas</div>
+        <div class="card-body">
+          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
+            height="200px">
+          <p class="card-text mt-3">
+            Mexican sandwich made with telera bread, mayo, choice of protein, lettuce, avocado,
+            queso fresco, tomatoes, onions, and jalapeños.
+          </p>
+
+          <h2 class="h2" id="headingOne"></h2>
+          <button class="accordion-button btn btn-light card-title text-center text-uppercase" type="button"
+            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            specialty tortas
+          </button>
+
+          <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+
+              <h6 class="card-title text-center">Cubana</h6>
+              <p class="card-text">
+                Specialty torta with three proteins: chicken milanese, hotdogs, and ham.
+              </p>
+              <h6 class="card-title text-center">Milanesa</h6>
+              <p class="card-text">
+                Specialty torta made with breaded chicken or steak milanese.
+              </p>
+              <h6 class="card-title text-center">Pambazo</h6>
+              <p class="card-text">
+                Specialty torta made with telera bread, sautéed in a red sauce and filled with seasoned
+                potatoes, chorizo, lettuce, avocado, queso fresco, tomatoes, onions, and jalapeños.
+              </p>
+            </div>
+          </div>
+
+          <!-- 
+                    <div class="card-body">
+                        <h2 class="fs-4" id="headingTwo">
+                            <button class="accordion-button collapsed btn btn-secondary" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Accordion Item #2
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsam distinctio ullam tempora voluptas error, beatae saepe in enim totam delectus, quisquam dolore et tenetur inventore repellendus impedit! Adipisci, aperiam.
+                            </div>
+                        </div>
+                    </div> -->
+
+
+
+        </div>
+      </div>
+
+
+
+
+    </section> --}}
+
+
+    <div class="col-12 jc-center">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.215753291135!2d-80.6298071839592!3d36.50065368001146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88523caa2239c039%3A0x93f5532b84893c80!2s936%20W%20Pine%20St%2C%20Mt%20Airy%2C%20NC%2027030!5e0!3m2!1sen!2sus!4v1647222404056!5m2!1sen!2sus"
+        width="100%" height="450px" loading="lazy">
+      </iframe>
+    </div>
+
+  </main>
+
+
+
+
+
+
+
+
+  <!-- bootstrap functionality -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+  <!-- momentum functionality -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+
+
+
+</body>
+
+</html>
