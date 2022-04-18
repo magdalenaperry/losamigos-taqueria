@@ -15,15 +15,18 @@
 
 <body>
 
-  <header>
-    <h1 class="text-center fw-light display-1 text-uppercase header-name">Los Amigos</h1>
-    <p class="text-center h5 text-uppercase header-desc">carniceria | taqueria</p>
+  <header class="text-center">
+    <img class="text-center logo" src="/images/losamigos-logo.png" alt="Los Amigos Logo">
+    <div class="header-text">
+      <h1 class="text-center fw-light display-1 text-uppercase header-name text-nowrap">Los Amigos</h1>
+      <p class="text-center h5 text-uppercase header-desc pt-3">carniceria & taqueria</p>
+    </div>
   </header>
 
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">-</a>
+      <a class="navbar-brand text-uppercase" href="#">Los Amigos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
         aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -32,7 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav me-auto">
           <li class="nav-item fs-5 text-uppercase px-3">
-            <a class="nav-link active" href="/">Los Amigos
+            <a class="nav-link active" href="/">Home
               <span class="visually-hidden">(current)</span>
             </a>
           </li>
@@ -43,7 +46,7 @@
             <a class="nav-link" href="/">Carniceria</a>
           </li>
           <li class="nav-item fs-5 text-uppercase px-3">
-            <a class="nav-link" href="/">Contact</a>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
           <li class="nav-item dropdown fs-5 text-uppercase px-3">
             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
@@ -57,16 +60,12 @@
             </div>
           </li>
         </ul>
-        <!-- <form class="d-flex">
-                    <input class="form-control me-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
       </div>
     </div>
   </nav>
 
 
-  <figure class="mx-5 px-5 text-end pt-5">
+  {{!-- <figure class="mx-md-5 px-5 text-end pt-5">
     <blockquote class="blockquote">
       <p class="mb-0">"Love this place! The tacos are divine! Service is awesome! ! The ladies making the food are always sweet and teach my daughter a little Spanish every time we pick up!"</p>
     </blockquote>
@@ -76,7 +75,7 @@
     </figcaption>
   </figure>
 
-  <figure class=" mx-5 px-5 text-end pb-5">
+  <figure class=" mx-md-5 px-5 text-end pb-5">
     <blockquote class="blockquote">
       <p class="mb-0">"Awesome place, best tacos I've ever had. Must get some if you like tacos, you'll never find any better."</p>
     </blockquote>
@@ -84,7 +83,7 @@
     <figcaption class="blockquote-footer text-danger">
       J.Besancon <cite title="Source Title">Google Reviews</cite>
     </figcaption>
-  </figure>
+  </figure> --}}
 
 {{{body}}}
 
@@ -249,13 +248,6 @@
 
     </section> --}}
 
-
-    <div class="col-12 jc-center">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3207.215753291135!2d-80.6298071839592!3d36.50065368001146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88523caa2239c039%3A0x93f5532b84893c80!2s936%20W%20Pine%20St%2C%20Mt%20Airy%2C%20NC%2027030!5e0!3m2!1sen!2sus!4v1647222404056!5m2!1sen!2sus"
-        width="100%" height="450px" loading="lazy">
-      </iframe>
-    </div>
 
   </main>
 

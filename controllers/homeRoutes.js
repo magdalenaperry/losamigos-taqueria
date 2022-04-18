@@ -38,7 +38,21 @@ router.get('/menu', async (req, res) => {
   }
 });
 
+// contact page
+router.get('/contact', async (req, res) => {
+  try {
+    // const menuData = await .findAll({});
+    // const proteinData = await Protein.findAll({});
 
+    // const menu = serialize(menuData);
+    // const protein = serialize(proteinData);
+
+    res.render('contact');
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+});
 
 
 module.exports = router;
