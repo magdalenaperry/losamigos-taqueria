@@ -4,9 +4,9 @@ const {
 } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Carniceria extends Model {}
+class Seafood extends Model { }
 
-Carniceria.init({
+Seafood.init({
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
@@ -24,7 +24,7 @@ Carniceria.init({
   timestamps: false,
   freezeTableName: true,
   underscored: true,
-  modelName: 'carniceria',
+  modelName: 'seafood',
 });
 
-module.exports = Carniceria;
+module.exports = Seafood;

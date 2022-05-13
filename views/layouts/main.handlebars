@@ -8,25 +8,19 @@
   <title>Los Amigos</title>
   <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css">
-
-
-
 </head>
 
 <body>
-
-  <header class="text-center">
+  <header class="text-center bg-black">
     <img class="text-center logo" src="/images/losamigos-logo.png" alt="Los Amigos Logo">
     <div class="header-text">
-      <h1 class="text-center fw-light display-1 text-uppercase header-name text-nowrap">Los Amigos</h1>
-      <p class="text-center h5 text-uppercase header-desc pt-3">carniceria & taqueria</p>
+      <h1 class="text-center fw-light display-1 text-uppercase header-name text-nowrap text-white">Los Amigos</h1>
+      <p class="text-center h5 text-uppercase header-desc pt-3 text-white">carniceria & taqueria</p>
     </div>
   </header>
-
-
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand text-uppercase" href="#">Los Amigos</a>
+      <a class="navbar-brand text-uppercase" href="/">Los Amigos</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
         aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,11 +28,11 @@
 
       <div class="collapse navbar-collapse" id="navbarColor02">
         <ul class="navbar-nav me-auto">
-          <li class="nav-item fs-5 text-uppercase px-3">
+          {{!-- <li class="nav-item fs-5 text-uppercase px-3">
             <a class="nav-link active" href="/">Home
               <span class="visually-hidden">(current)</span>
             </a>
-          </li>
+          </li> --}}
           <li class="nav-item fs-5 text-uppercase px-3">
             <a class="nav-link" href="/menu">Menu</a>
           </li>
@@ -64,194 +58,144 @@
     </div>
   </nav>
 
-
-  {{!-- <figure class="mx-md-5 px-5 text-end pt-5">
-    <blockquote class="blockquote">
-      <p class="mb-0">"Love this place! The tacos are divine! Service is awesome! ! The ladies making the food are always sweet and teach my daughter a little Spanish every time we pick up!"</p>
-    </blockquote>
-    
-    <figcaption class="blockquote-footer text-danger">
-      R.Thomas <cite title="Source Title">Google Reviews</cite>
-    </figcaption>
-  </figure>
-
-  <figure class=" mx-md-5 px-5 text-end pb-5">
-    <blockquote class="blockquote">
-      <p class="mb-0">"Awesome place, best tacos I've ever had. Must get some if you like tacos, you'll never find any better."</p>
-    </blockquote>
-
-    <figcaption class="blockquote-footer text-danger">
-      J.Besancon <cite title="Source Title">Google Reviews</cite>
-    </figcaption>
-  </figure> --}}
-
-{{{body}}}
-
-  {{!-- <main id="la-menu" class="container pt-5">
-    <section class="row jc-center fw-lighter">
-
-      <h2 class="text-uppercase text-center py-3 display-5 page-break">taqueria menu</h2>
-
-      <div class="col-12 mx-2 mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">Protein</div>
-        <div class="card-body">
-          <ul class="row card-text col-12 text-center text-uppercase">
-            <p class="col-4">carne asada (grilled steak)</p>
-            <p class="col-4">pollo (grilled chicken)</p>
-            <p class="col-4">pastor (marinated pork)</p>
-            <p class="col-4">barbacoa (braised beef)</p>
-            <p class="col-4">cecina (cured salted beef)</p>
-            <p class="col-4">chorizo (mexican sausage)</p>
-            <p class="col-4">carnitas (braised pork)</p>
-            <p class="col-4">tripa (tripe) + $</p>
-            <p class="col-4">lengua (beef tongue) + $</p>
-          </ul>
-        </div>
-      </div>
-      <hr>
-
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">tacos</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">Four hand-made, soft, corn tortillas filled with choice of protein, topped
-            with cilantro, and onions.</p>
-        </div>
-      </div>
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">sopes</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">Three thick corn tortillas topped with beans choice of protein, lettuce, sour cream, and queso fresco.</p>
-        </div>
-      </div>
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">burritos</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">12 in. flour tortilla stuffed with rice, beans, choice of protein, cheese,
-            onions, and cilantro.</p>
-        </div>
-      </div>
-
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">flautas</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3 ">Four hand-made, fried corn tortillas rolled and filled with shredded
-            chicken.
-            Topped with sour cream and queso fresco. Served with lettuce, and tomatoes.</p>
-        </div>
-      </div>
-
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">gorditas</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">Three thick corn tortillas fried and filled with chicharron (fried pork
-            skins
-            in green sauce), or choice of protein, lettuce, sour cream, and queso fresco.</p>
-        </div>
-      </div>
+  {{{body}}}
 
 
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">quesadillas</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">12 in. flour tortilla grilled with choice of protein and cheese. Served
-            with
-            lettuce, tomatoes, and sour cream.</p>
-        </div>
-      </div>
+  <footer class="text-white text-center text-lg-start bg-black">
+    <!-- Grid container -->
+    <div class="p-4">
+      <!--Grid row-->
+      <div class="row mt-4">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-5 mb-md-0">
+          <h5 class="text-uppercase mb-4 text-center text-white">About company</h5>
 
-
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">enchiladas</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">Four hand-made, soft, corn tortillas rolled and filled with queso fresco
-            and
-            slathered in a green tomatillo sauce. Topped with queso, served with cecina, lettuce, sour
-            cream, avocado, and red onion.</p>
-        </div>
-      </div>
-
-
-
-      <div class="col-md-5 mx-3 card border-light mb-3 py-5">
-        <div class="card-header text-uppercase text-center h5">tortas</div>
-        <div class="card-body">
-          <img class="img-fluid jc-center" src="https://via.placeholder.com/300" alt="" title="" width="100%"
-            height="200px">
-          <p class="card-text mt-3">
-            Mexican sandwich made with telera bread, mayo, choice of protein, lettuce, avocado,
-            queso fresco, tomatoes, onions, and jalapeños.
+          <p class="text-center">
+            We are a small business located on West Pine St. Come see us for a wide selection of fresh cut meats, carne
+            asadas, remittances, and produce at the carniceria. Join us at the taqueria for tacos, tortas, enchiladas,
+            etc.
           </p>
+          {{!-- contact buttons --}}
 
-          <h2 class="h2" id="headingOne"></h2>
-          <button class="accordion-button btn btn-light card-title text-center text-uppercase" type="button"
-            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            specialty tortas
-          </button>
+        </div>
+        <!--Grid column-->
 
-          <div id="collapseOne" class="accordion-collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4 pb-1 text-center text-white">Contact Us</h5>
 
-              <h6 class="card-title text-center">Cubana</h6>
-              <p class="card-text">
-                Specialty torta with three proteins: chicken milanese, hotdogs, and ham.
-              </p>
-              <h6 class="card-title text-center">Milanesa</h6>
-              <p class="card-text">
-                Specialty torta made with breaded chicken or steak milanese.
-              </p>
-              <h6 class="card-title text-center">Pambazo</h6>
-              <p class="card-text">
-                Specialty torta made with telera bread, sautéed in a red sauce and filled with seasoned
-                potatoes, chorizo, lettuce, avocado, queso fresco, tomatoes, onions, and jalapeños.
-              </p>
+
+          {{!-- address --}}
+          <div class="" style="">
+            <div class="row">
+              <div class="col-3 col-sm-4 text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z" />
+                </svg>
+              </div>
+              <div class=" col-9 col-sm-8 text-start">936 West Pine Street
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-3 col-sm-4 text-end">
+              </div>
+              <div class="col-9 col-sm-8 text-start">Mount Airy, NC 27030</div>
             </div>
           </div>
 
-          <!-- 
-                    <div class="card-body">
-                        <h2 class="fs-4" id="headingTwo">
-                            <button class="accordion-button collapsed btn btn-secondary" type="button" data-toggle="collapse"
-                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Accordion Item #2
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ipsam distinctio ullam tempora voluptas error, beatae saepe in enim totam delectus, quisquam dolore et tenetur inventore repellendus impedit! Adipisci, aperiam.
-                            </div>
-                        </div>
-                    </div> -->
+
+          <div class="" style="">
+            <div class="row">
+              <div class="col-3 col-sm-4 text-end">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+              </div>
+              <div class="col-9 col-sm-8 text-start text-white">
+                <a class="text-white text-decoration-none" href="tel:336648898">(336) 648-8098</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="my-4 text-center">
+            <!-- Facebook -->
+            <a type="button" class="text-white mx-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+            </a>
+            <!-- Google Reviews-->
+            <a type="button" class="text-white me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-google"
+                viewBox="0 0 16 16">
+                <path
+                  d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+              </svg>
+            </a>
+            <!-- Email -->
+            <a type="button" class="text-white me-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path
+                  d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+              </svg>
+            </a>
+            <!-- Linkedin -->
+          </div>
 
 
 
         </div>
+
+
+
+
+
+
+
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h5 class="text-uppercase mb-4 text-center text-white">Opening Hours</h5>
+          <div class="table text-center text-white">
+            <h6 class="text-center text-white">Carniceria</h6>
+            <tbody class="fw-normal">
+              <tr class="row">
+                <td class="col-6 text-end">Mon - Sun:</td>
+                <td class="col-6 text-start">10am - 8pm</td>
+              </tr>
+            </tbody>
+          </div>
+
+          <h6 class="text-center text-white">Taqueria</h6>
+          <div class="table text-center text-white">
+            <tbody class="fw-normal">
+              <tr class="row">
+                <td class="col-6 text-end">Mon - Sun:</td>
+                <td class="col-6 text-start">11am - 7:30pm</td>
+              </tr>
+            </tbody>
+          </div>
+        </div>
+        <!--Grid column-->
       </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
 
-
-
-
-    </section> --}}
-
-
-  </main>
-
-
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      {{!-- © 2020 Copyright: --}}
+    </div>
+    <!-- Copyright -->
+  </footer>
 
 
 
