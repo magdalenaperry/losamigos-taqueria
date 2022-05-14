@@ -3,37 +3,81 @@ const {
 } = require('../models');
 
 const seafoodData = [{
-  name: "carne asada",
-  translated: "grilled steak"
-},
-{
-  name: "",
+  name: "jaiva",
   translated: ""
 },
 {
-  name: "barbacoa",
-  translated: "braised beef"
-},
-{
-  name: "",
+  name: "seafood mix",
   translated: ""
 },
 {
-  name: "",
+  name: "bagre",
   translated: ""
 },
 {
-  name: "",
+  name: "camaron",
   translated: ""
 },
 {
-  name: "",
+  name: "mojarra",
+  translated: ""
+},
+{
+  name: "filete de mojarra",
+  translated: ""
+},
+{
+  name: "pulpo",
   translated: "",
 },
 {
-  name: "lengua",
-  translated: "beef tongue",
+  name: "tilapia",
+  translated: "",
 },
+  {
+    name: "camaron precocido",
+    translated: ""
+  },
+  {
+    name: "camaron pelado",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: "",
+  },
+  {
+    name: "",
+    translated: "",
+  },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: "",
+  },
+  {
+    name: "",
+    translated: "",
+  },
 
 
 ]

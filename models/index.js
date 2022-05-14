@@ -4,6 +4,6 @@ const Pork = require('./pork');
 const Chicken = require('./chicken');
 const Beef = require('./beef');
 const Seafood = require('./seafood');
-const Miscellaneous = require('./miscellaneous');
+// const Miscellaneous = require('./miscellaneous');
 
 module.exports = { Menu, Protein, Pork, Chicken, Beef, Seafood }

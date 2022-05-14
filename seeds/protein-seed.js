@@ -7,39 +7,49 @@ const proteinData = [{
     translated: "grilled steak"
   },
   {
-    name: "pollo",
-    translated: "grilled chicken"
+    name: "",
+    translated: ""
   },
   {
-    name: "pastor",
-    translated: "marinated pork"
+    name: "",
+    translated: ""
   },
   {
-    name: "barbacoa",
-    translated: "braised beef"
+    name: "",
+    translated: ""
   },
   {
-    name: "cecina",
-    translated: "cured salted beef"
+    name: "",
+    translated: "",
   },
   {
-    name: "chorizo",
-    translated: "mexican sausage"
+    name: "",
+    translated: "",
   },
   {
-    name: "carnitas",
-    translated: "braised pork"
+    name: "",
+    translated: ""
   },
   {
-    name: "tripa",
-    translated: "tripe",
-    extra: "+ $"
+    name: "",
+    translated: ""
   },
-   {
-     name: "lengua",
-     translated: "beef tongue",
-     extra: "+ $"
-   },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: ""
+  },
+  {
+    name: "",
+    translated: "",
+  },
+  {
+    name: "",
+    translated: "",
+  },
 
 
 

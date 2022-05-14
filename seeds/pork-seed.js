@@ -3,37 +3,81 @@ const {
 } = require('../models');
 
 const porkData = [{
-  name: "",
+  name: "chorizo",
   translated: ""
 },
 {
-  name: "",
+  name: "chuleta",
   translated: ""
 },
 {
-  name: "",
+  name: "costilla",
   translated: ""
 },
 {
-  name: "",
+  name: "maciza",
   translated: ""
 },
 {
-  name: "",
+  name: "pata",
   translated: ""
 },
 {
-  name: "",
+  name: "espinazo",
   translated: ""
 },
 {
-  name: "",
+  name: "carnitas",
   translated: "",
 },
 {
-  name: "",
+  name: "cuero",
   translated: "",
 },
+  {
+    name: "chicharron",
+    translated: ""
+  },
+  {
+    name: "boston",
+    translated: ""
+  },
+  {
+    name: "chuleta ahumada",
+    translated: ""
+  },
+  {
+    name: "jamon",
+    translated: "",
+  },
+  {
+    name: "queso puerco",
+    translated: "",
+  },
+  {
+    name: "salchichas",
+    translated: ""
+  },
+  {
+    name: "orejas",
+    translated: ""
+  },
+  {
+    name: "patas y orejas en vinagre",
+    translated: ""
+  },
+  {
+    name: "cueritos en vinagre",
+    translated: ""
+  },
+  {
+    name: "pastor",
+    translated: "",
+  },
+  {
+    name: "costilla preparada",
+    translated: "",
+  },
 
 
 ]
