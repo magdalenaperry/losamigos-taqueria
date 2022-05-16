@@ -98,9 +98,6 @@ const beefData = [{
     name: "cachete",
     translated: ""
   },
- 
-
-
 ]
 
 const seedBeef = () => Beef.bulkCreate(beefData);
