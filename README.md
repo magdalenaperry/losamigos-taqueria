@@ -14,7 +14,7 @@ Los Amigos is a mobile first, responsive web application built with user interfa
 
 ---
 ## Visuals
-<!-- ![Demo Link](http://youtube.com) -->
+![Home Page Image](/public/images/homepage.png)
 
 ---
 ## Technologies
