@@ -13,6 +13,7 @@
 ---
   
 # Los Amigos Taqueria
+</div>  
 
 ![](https://img.shields.io/badge/License-MIT-white.svg)
 
