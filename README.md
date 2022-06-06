@@ -15,7 +15,6 @@
 # Los Amigos Taqueria
 </div>  
 
-![](https://img.shields.io/badge/License-MIT-white.svg)
 
 ## Table of Contents
   
@@ -37,6 +36,8 @@ Los Amigos is a mobile first, responsive web application built with user interfa
 #### Deployed Links:  
 
 [Los Amigos Link](https://morning-tor-09427.herokuapp.com/)
+
+---
 
 ## Technologies
 - MYSQL
