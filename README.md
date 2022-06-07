@@ -84,17 +84,19 @@ npm run seed
 ---
 
 ## Usage  
+
 Create a .env file at the root of your file and add the following environment variables
-`
+```
   DB_NAME=NAMEOFYOURDB
   DB_USER=root
   DB_PASSWORD=yourdbpasswordatsetup
-`
+```
+
 Run your program
-`
+```
 npm start (or)
 node server.jss
-`  
+```
   
   
 ---
