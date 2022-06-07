@@ -37,6 +37,9 @@ Los Amigos is a mobile first, responsive web application built with user interfa
 
 [Los Amigos Link](https://morning-tor-09427.herokuapp.com/)
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ---
 
 ## Technologies
@@ -93,7 +96,7 @@ npm run seed
 
 ## Usage  
 
-Run your program
+Run the application
 ```
 npm start (or)
 node server.js
