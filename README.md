@@ -56,8 +56,8 @@ Los Amigos is a mobile first, responsive web application built with user interfa
     - [Node.js download](https://nodejs.org/en/)
 2. verify installation
 ```  
-    node -v
-    npm -v
+node -v
+npm -v
 ```   
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -66,26 +66,35 @@ Los Amigos is a mobile first, responsive web application built with user interfa
 ## Installation
 - Install dependencies at root
 ```
-    npm install
+npm install
 ```
 
 - Create MYSQL schema
 ```
-    mysql -u root
-      SOURCE db/schema.sql
-      exit
+mysql -u root
+  SOURCE db/schema.sql
+  exit
 ```
 - seed data
 ```
-    npm run seed 
+npm run seed 
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ---
 
 ## Usage  
-
-  
+Create a .env file at the root of your file and add the following environment variables
+`
+  DB_NAME=NAMEOFYOURDB
+  DB_USER=root
+  DB_PASSWORD=yourdbpasswordatsetup
+`
+Run your program
+`
+npm start (or)
+node server.jss
+`  
   
   
 ---
@@ -135,7 +144,7 @@ email - [mageltron@gmail.com](mageltron@gmail.com)
 ---
 ## Acknowledgements
 
-- [Los Amigos Carniceria](https://)
+- [Los Amigos Carniceria](https://](https://morning-tor-09427.herokuapp.com/)
 - [Heroku](https://heroku.com)
 - [Canva](https://canva.com/)
 
