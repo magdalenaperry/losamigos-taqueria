@@ -64,18 +64,18 @@ npm -v
 ---
 
 ## Installation
-- Install dependencies at root
+Install dependencies at root
 ```
 npm install
 ```
 
-- Create MYSQL schema
+Create MYSQL schema
 ```
 mysql -u root
   SOURCE db/schema.sql
   exit
 ```
-- seed data
+seed data
 ```
 npm run seed 
 ```
@@ -95,7 +95,7 @@ Create a .env file at the root of your file and add the following environment va
 Run your program
 ```
 npm start (or)
-node server.jss
+node server.js
 ```
   
   
@@ -146,7 +146,7 @@ email - [mageltron@gmail.com](mageltron@gmail.com)
 ---
 ## Acknowledgements
 
-- [Los Amigos Carniceria](https://](https://morning-tor-09427.herokuapp.com/)
+- [Los Amigos Carniceria](https://morning-tor-09427.herokuapp.com/)
 - [Heroku](https://heroku.com)
 - [Canva](https://canva.com/)
 
