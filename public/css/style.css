@@ -54,6 +54,10 @@ iframe {
     height: 300px;
 }
 
+.overflow-cont {
+    height: 600px;
+    overflow: scroll;
+}
 
 
 @media (min-width: 150px) and (max-width:725px) {
